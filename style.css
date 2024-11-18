@@ -1,11 +1,18 @@
 body {
    margin: 0;
    padding: 0;
+   overflow: hidden;
    display: flex;
    justify-content: center;
    align-items: center;
    height: 100vh;
    background-color: black;
+   color: white;
+   font-family: Arial, sans-serif;
+}
+
+#settings {
+   text-align: center;
 }
 
 canvas {
